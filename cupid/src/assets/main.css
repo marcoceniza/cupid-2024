@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.msg_wrap section {
+    background: #f7e0e4;
+    border-radius: 4px;
+    margin: 8px;
+    padding: 12px;
+    width: 280px;
+    max-width: 100%;
+    position: relative;
+    min-height: 282px;
+  }
+  .msg_wrap section p {
+    border-bottom: 1px solid #cc7282;
+    padding-bottom: 20px;
+  }
+  .msg_wrap section:nth-child(odd) {
+    background: #ffc5cf !important;
+  }
+  .sending {
+    opacity: 0.5;
+    pointer-events: none;
+  }
